@@ -32,8 +32,6 @@ See branches for assignments.
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-<img src="x-honeypot.gif">
-
 ### Malware Capture and Identification (Optional)
 
 #### X Malware
@@ -44,7 +42,6 @@ MD5 Hash: *Run `md5sum` on the file and record the hash here.*
 
 SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
-<img src="x-malware.gif">
 
 ## Notes
 

@@ -10,39 +10,22 @@ See branches for assignments.
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** How did you deploy it? I used GCP to deploy it.
 
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Briefly in your own words, what does dionaea do?
+**Summary:** Dionaea is a honeypot used to trap malware samples.
 
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
-
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
-
-### Deploying Additional Honeypot(s) (Optional)
-
-#### X Honeypot
-
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-### Malware Capture and Identification (Optional)
-
-#### X Malware
-
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+**Summary:** The MHN server is supported on Ubuntu 18.04, Ubuntu 16.04, and Centos 6.9. The exported JSON file record oid, protocol, date, source_ip, source_port, destination_port etc.
 
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
+One challenge i faced was to deploy dionaea. Instead of deploying command in honeypot-1, i started in mhn-admin. And i was lost for few minutes why there no attacks coming in. 
+Also setting up billing and compute AI was little confusing in the beginning, but following the link from command made it easy.

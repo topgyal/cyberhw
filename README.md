@@ -24,6 +24,7 @@ See branches for assignments.
 
 **Summary:** The MHN server is supported on Ubuntu 18.04, Ubuntu 16.04, and Centos 6.9. The exported JSON file record oid, protocol, date, source_ip, source_port, destination_port etc.
 
+<img src="database-backup.gif">
 
 ## Notes
 
